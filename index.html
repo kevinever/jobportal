@@ -1,7 +1,4 @@
-﻿<html>
-<head><title>e-portal</title></head>
-<body>
-<?php 
+﻿<?php 
 require_once("include/initialize.php"); 
 $content='home.php';
 $view = (isset($_GET['q']) && $_GET['q'] != '') ? $_GET['q'] : '';
@@ -74,5 +71,3 @@ switch ($view) {
 }
 require_once("theme/templates.php");
 ?>
-</body>
-</html>
