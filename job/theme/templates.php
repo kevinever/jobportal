@@ -61,7 +61,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">      
-                <p class="pull-left hidden-xs"><i class="fa fa-phone"></i>Tel No. (+001) 123-456-789</p>
+                <p class="pull-left hidden-xs"><i class="fa fa-phone"></i>Tel No. (+250) 786-746-170</p>
                 <?php if (isset($_SESSION['APPLICANTID'])) { 
 
                     $sql = "SELECT count(*) as 'COUNTNOTIF' FROM `tbljob` ORDER BY `DATEPOSTED` DESC";
@@ -91,14 +91,13 @@
         <div style="min-height: 30px;"></div>
         <div class="navbar navbar-default navbar-static-top" > 
             <div class="container">
-                <div class="navbar-header">
+              <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo web_root; ?>index.php"><img src="kashipara.png" width="100" height="50"><!-- <img src="<?php echo web_root; ?>plugins/home-plugins/img/logo.png" alt="logo"/> --></a>
-                </div>
+                  <a class="navbar-brand" href="<?php echo web_root; ?>index.php"><!-- <img src="<?php echo web_root; ?>plugins/home-plugins/img/logo.png" alt="logo"/> --></a>                </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="<?php echo !isset($_GET['q'])? 'active' :''?>"><a href="<?php echo web_root; ?>index.php">Home</a></li> 
